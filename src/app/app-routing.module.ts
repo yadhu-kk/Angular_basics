@@ -10,8 +10,9 @@ import { NewlistingsPageComponent } from './newlistings-page/newlistings-page.co
 const routes: Routes = [
   { path: '', component: ListingsPageComponent },
   { path: 'listing-detail/:id', component: ListingDetailpageComponent },
-  { path: 'contact', component: ContactPageComponent },
-  { path: 'edit-listing', component: EditListingpageComponent },
+  { path: 'contact/:id', component: ContactPageComponent },
+
+  { path: 'edit-listing/:id', component: EditListingpageComponent },
   { path: 'mylistings', component: MylistingsPageComponent },
   { path: 'newlistings', component: NewlistingsPageComponent },
 ];
