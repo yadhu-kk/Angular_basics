@@ -15,6 +15,7 @@ const routes: Routes = [
   { path: 'edit-listing/:id', component: EditListingpageComponent },
   { path: 'mylistings', component: MylistingsPageComponent },
   { path: 'newlistings', component: NewlistingsPageComponent },
+  { path: 'listings', component: ListingsPageComponent },
 ];
 
 @NgModule({

@@ -9,7 +9,9 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
 import { EditListingpageComponent } from './edit-listingpage/edit-listingpage.component';
 import { MylistingsPageComponent } from './mylistings-page/mylistings-page.component';
 import { NewlistingsPageComponent } from './newlistings-page/newlistings-page.component';
-
+import { ListingDataFormComponent } from './listing-data-form/listing-data-form.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,8 +21,10 @@ import { NewlistingsPageComponent } from './newlistings-page/newlistings-page.co
     EditListingpageComponent,
     MylistingsPageComponent,
     NewlistingsPageComponent,
+    ListingDataFormComponent,
+    NavBarComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -1,1 +1,13 @@
-<p>edit-listingpage works!</p>
+<div class="edit-listing">
+  <div class="data-form">
+    <h2>Edit Listing</h2>
+    <app-listing-data-form
+      buttonText="Save changes"
+      currentName="{{ listing.name }}"
+      currentPrice="{{ listing.price }}"
+      (onSubmit)="onSubmit()"
+    >
+      submit</app-listing-data-form
+    >
+  </div>
+</div>
